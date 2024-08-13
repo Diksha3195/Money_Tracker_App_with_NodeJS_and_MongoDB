@@ -101,7 +101,7 @@ for(const expense of expenses){
         }
 
         totalAmountCell.textContent=totalAmount;
-        expenseTableBody.removeChild(new Row)
+        expenseTableBody.removeChild(newRow)
      })
      const expense = expenses[expenses.length-1];
      categoryCell.textContent=expense.category;
